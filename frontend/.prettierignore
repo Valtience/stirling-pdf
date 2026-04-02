@@ -1,0 +1,9 @@
+dist/
+node_modules/
+public/vendor/
+public/pdfjs*/
+public/js/thirdParty/
+public/css/cookieconsent.css
+*.min.*
+src-tauri/
+src/output.css
