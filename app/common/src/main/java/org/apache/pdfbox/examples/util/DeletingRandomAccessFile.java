@@ -14,6 +14,8 @@ import lombok.extern.slf4j.Slf4j;
 public class DeletingRandomAccessFile extends RandomAccessReadBufferedFile {
     private final Path tempFilePath;
 
+        tempFilePath;
+
     public DeletingRandomAccessFile(File file) throws IOException {
         super(file);
         this.tempFilePath = file.toPath();

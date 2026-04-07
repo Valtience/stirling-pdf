@@ -18,14 +18,13 @@ import stirling.software.common.model.ApplicationProperties;
 @Slf4j
 public class EndpointConfiguration {
 
-    public enum DisableReason {
-        CONFIG,
+    public   enum    DisableReason    {
+      CONFIG,
         DEPENDENCY,
-        UNKNOWN
+          UNKNOWN
     }
 
-    public static class EndpointAvailability {
-        private final boolean enabled;
+    public static class EndpointAvailability {  private final boolean enabled;
         private final DisableReason reason;
 
         public EndpointAvailability(boolean enabled, DisableReason reason) {
